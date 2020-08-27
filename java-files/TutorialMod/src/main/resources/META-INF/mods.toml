@@ -7,29 +7,28 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 
 [[mods]] #mandatory
 
-modId="tutorial" #mandatory
+modId="iceCream" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
-version="1.15.2-1.0.0" #mandatory
+version="1.15.2-0.1.0" #mandatory
 
-displayName="My First Mod" #mandatory
+displayName="Who Wants Ice Cream?" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="htpps://github.com/SuperHarmony910/modification-builder/tags/Ice-Creams" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/SuperHarmony910" #optional
+displayURL="https://github.com/SuperHarmony910/modification-builder" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 
-credits="Thanks to TechnoVision (https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg) for the tutorial!" #optional
+credits="Thanks to TechnoVision (https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg) for the tutorial on modding!" #optional
 
 authors="SuperHarmony910" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-I didn't want lorem ipsum dolor sit amet, I wanted a mod that would add in
-***********drumroll***********
-a block. With a GUI saying something stupid!
+This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister,
+she wanted ice cream! So,
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.tutorial]] #optional
+[[dependencies.iceCream]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -41,7 +40,7 @@ a block. With a GUI saying something stupid!
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.tutorial]]
+[[dependencies.iceCream]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"
