@@ -1,4 +1,4 @@
-package com.superharmony910.iceCream;
+package com.superharmony910.icecream;
 
 
 import net.minecraft.block.Blocks;
@@ -13,7 +13,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("iceCream")
+@Mod("icecream")
 public class iceCream
 {
     // Directly reference a log4j logger.
