@@ -23,13 +23,12 @@ displayURL="https://github.com/SuperHarmony910/modification-builder/releases/tag
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="iceCream.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to TechnoVision (https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg) for the tutorial on modding and MrCrayfish for the inspiration on what can be made with these lines of code!" #optional
+credits="Thanks to TechnoVision @ https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg for the tutorial on modding and MrCrayfish for the inspiration on what can be made with these lines of code!" #optional
 # A text field displayed in the mod UI
 authors="SuperHarmony910" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister,
-she wanted ice cream! So, I guess that's what I'm going to be doing for the first mod in Minecraft. :D
+This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister, she wanted ice cream! So, I guess that's what I'm going to be doing for the first mod in Minecraft. :D
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.icecream]] #optional
@@ -38,7 +37,7 @@ modId="icecream" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
 mandatory=true #mandatory
 # The version range of the dependency
-versionRange="[31,)" #mandatory
+versionRange="[0.1,)" #mandatory
 # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
 ordering="NONE"
 # Side this dependency is applied on - BOTH, CLIENT or SERVER
