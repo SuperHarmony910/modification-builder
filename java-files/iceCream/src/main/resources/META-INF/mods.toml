@@ -23,13 +23,12 @@ displayURL="https://github.com/SuperHarmony910/modification-builder/releases/tag
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="iceCream.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks to TechnoVision (https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg) for the tutorial on modding and MrCrayfish for the inspiration on what can be made with these lines of code!" #optional
+credits="Thanks to TechnoVision @ https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg for the tutorial on modding and MrCrayfish for the inspiration on what can be made with these lines of code!" #optional
 # A text field displayed in the mod UI
 authors="SuperHarmony910" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister,
-she wanted ice cream! So, I guess that's what I'm going to be doing for the first mod in Minecraft. :D
+This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister, she wanted ice cream! So, I guess that's what I'm going to be doing for the first mod in Minecraft. :D
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.icecream]] #optional
