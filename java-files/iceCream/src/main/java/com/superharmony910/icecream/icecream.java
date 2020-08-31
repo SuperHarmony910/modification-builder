@@ -24,6 +24,7 @@ public class icecream
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "icecream";
 
     public icecream() {
         // Register the setup method for modloading
