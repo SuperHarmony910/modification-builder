@@ -1,5 +1,6 @@
 package com.superharmony910.icecream;
 
+import com.superharmony910.util.RegistryHandler;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -24,14 +25,14 @@ public class icecream
 {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "icecream";
 
     public icecream() {
-        // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        // Register the doClientStuff method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        // Register ourselves for server and other game events we are interested in
+        RegistryHandler.init();
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
