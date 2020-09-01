@@ -63,7 +63,7 @@ displayName="Who Wants Ice Cream?" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification <here>
 updateJSONURL="https://github.com/SuperHarmony910/modification-builder/releases/tag/${jarVersion}-alpha" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/SuperHarmony910/modification-builder/releases/tag/${jarVersion}-alpha" #optional
+displayURL="https://github.com/SuperHarmony910/modification-builder/releases/tag/0.1.1-alpha" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="iceCream.png" #optional
 # A text field displayed in the mod UI

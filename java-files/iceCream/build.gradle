@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 version = '0.1.1'
-group = 'com.superharmony910.icecream' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = 'com.superharmony910.icecream'
 archivesBaseName = 'icecream'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
@@ -51,7 +51,7 @@ minecraft {
         server {
             workingDirectory project.file('run')
 
-            // Recommended logging data for a userdev environment
+            // Recommended logging data for a user dev environment
             property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
 
             // Recommended logging level for the console
@@ -74,6 +74,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             args '--mod', 'icecream', '--all', '--output', file('src/main/resources/')
+
 
             mods {
                 icecream {
