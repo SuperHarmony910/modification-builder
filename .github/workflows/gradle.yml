@@ -23,5 +23,3 @@ jobs:
       shell: cmd
     - name: Build with Gradle
       run:  gradlew build
-    - name: Run with Gradle
-      run: gradlew runClient
