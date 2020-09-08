@@ -26,14 +26,6 @@ jobs:
     with:
       name: Latest commit mod build
       path: build/libs
-      
-  
-client:  
-    
-  runs-on: windows-latest
-    
-    steps:
-        name: Run Minecraft client with Gradle
-        run: gradlew runClient       
+
        
      
