@@ -22,18 +22,18 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run:  gradlew build
+    uses: actions/upload-artifact@v2
+    with:
+      name: Latest commit mod build
+      path: build/libs
       
   
-  client:  
+client:  
     
-    runs-on: windows-latest
+  runs-on: windows-latest
     
-     steps:
-     - name: Set up JDK 1.8 for runClient
-       uses: actions/setup-java@v1
-       with:
-         java-version: 1.8
-     - name: Run Minecraft client with Gradle
-       run: gradlew runClient       
+    steps:
+        name: Run Minecraft client with Gradle
+        run: gradlew runClient       
        
      
