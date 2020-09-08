@@ -22,10 +22,5 @@ jobs:
         java-version: 1.8
     - name: Build with Gradle
       run:  gradlew build
-    uses: actions/upload-artifact@v2
-    with:
-      name: Latest commit mod build
-      path: build/libs
-
        
      
