@@ -21,8 +21,7 @@ import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod("icecream")
-public class icecream
-{
+public class icecream {
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "icecream";
@@ -33,11 +32,11 @@ public class icecream
 
         RegistryHandler.init();
 
+        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
+    private void setup(final FMLCommonSetupEvent event) {
         // some preinit code
         LOGGER.info("HELLO FROM PREINIT");
         LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
@@ -48,3 +47,4 @@ public class icecream
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
     }
 }
+
