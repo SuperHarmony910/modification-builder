@@ -15,9 +15,9 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0'
+version = '0.1.1'
 group = 'com.superharmony910.icecream' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'modid'
+archivesBaseName = 'icecream'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -119,7 +119,7 @@ jar {
         attributes([
             "Specification-Title": "icecream",
             "Specification-Vendor": "SuperHarmony910",
-            "Specification-Version": "0.1.1", // We are version 1 of ourselves
+            "Specification-Version": "0.1.1",
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"SuperHarmony910",
