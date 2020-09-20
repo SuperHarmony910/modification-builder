@@ -47,3 +47,4 @@ public class icecream {
         LOGGER.info("Got game settings {}", event.getMinecraftSupplier().get().gameSettings);
     }
 }
+

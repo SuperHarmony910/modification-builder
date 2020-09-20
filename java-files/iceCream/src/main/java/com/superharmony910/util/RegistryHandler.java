@@ -20,3 +20,4 @@ public class RegistryHandler {
     // Items only!
     public static final RegistryObject<Item> ICE_CREAM_BLOCK = ITEMS.register("ice_cream_block", ItemBase::new);
 }
+
