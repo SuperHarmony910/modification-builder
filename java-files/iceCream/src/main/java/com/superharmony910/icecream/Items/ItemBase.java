@@ -1,4 +1,4 @@
-package com.superharmony910.icecream.Items;
+package com.superharmony910.icecream.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

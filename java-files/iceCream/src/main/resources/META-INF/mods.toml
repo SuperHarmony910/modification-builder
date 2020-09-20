@@ -22,7 +22,7 @@ updateJSONURL="https://github.com/SuperHarmony910/modification-builder/issues/ne
 # A URL for the "homepage" for this mod, displayed in the mod UI
 displayURL="https://github.com/SuperHarmony910/modification-builder/releases/tag/v0.1.1-alpha" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="icecream.png" #optional
+logoFile="iceCream.png" #optional
 # A text field displayed in the mod UI
 credits="Thanks to TechnoVision @ https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg for the tutorial on modding and MrCrayfish for the inspiration on what can be made with these lines of code!" #optional
 # A text field displayed in the mod UI
