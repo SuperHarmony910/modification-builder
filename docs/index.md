@@ -11,3 +11,5 @@ and sheer commitment to make this blocky game thrive influenced me to contribute
 
 #### I would love to hear some feedback from you!
 Feedback to me is greatly appreciated, I would love to hear from you! Just copy the contents of `.github/ISSUE_TEMPLATE.md`, paste it in an issue and fill it out!
+
+Download: https://github.com/SuperHarmony910/modification-builder/releases/0.2.0-alpha
