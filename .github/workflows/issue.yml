@@ -1,0 +1,31 @@
+on:
+  push
+
+name: Create issue in Jira
+
+jobs:
+  create-issue:
+    name: Create issue
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Login
+      uses: atlassian/gajira-login@master
+      env:
+        JIRA_BASE_URL: ${{ secrets.superharmony910.atlassian.net }}
+        JIRA_API_TOKEN: ${{ secrets.tvQthTni75cW6QHWy4qE7BF4 }}
+
+    - name: Create
+      id: create
+      uses: ./
+      with:
+        project: GA
+        issuetype: Build
+        summary: |
+          Build completed for ${{ github.repository }}
+        description: |
+          Compare branch|${{ github.event.compare }} # https://developer.github.com/v3/activity/events/types/#webhook-payload-example-31
+    - name: Log created issue
+      run: echo "Issue ${{ steps.create.outputs.issue }} was created"
