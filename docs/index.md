@@ -5,7 +5,7 @@ This is where I store all my resource packs and modifications (for Forge). Hope 
 ## Inspiration & motivation.
 
 I was first inspired by <strong>[@MrCrayfish](https://github.com/MrCrayfish)</strong>, his additions to Minecraft added an extra depth to vanilla MC that I desired to achieve, and so this is the start of my modding career.
-A huge shoutout to [@TechnoVisionDev](https://github.com/TechnoVisionDev) for the the conspicuous and richly detailed lesson to modding!
+A huge shoutout to <strong>[@TechnoVisionDev](https://github.com/TechnoVisionDev)</strong> for the the conspicuous and richly detailed lesson to modding!
 
 ## Why is my inquisitiveness based on Minecraft?
 
