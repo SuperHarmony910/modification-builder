@@ -4,8 +4,8 @@ This is where I store all my resource packs and modifications (for Forge). Hope 
 
 ## Inspiration & motivation.
 
-I was first inspired by @MrCrayfish, his additions to Minecraft added an extra depth to vanilla MC that I desired to achieve, and so this is the start of my modding career.
-A huge shoutout to @TechnoVisionDev for the the conspicuous and richly detailed lesson to modding!
+I was first inspired by <strong>[@MrCrayfish](https://github.com/MrCrayfish)</strong>, his additions to Minecraft added an extra depth to vanilla MC that I desired to achieve, and so this is the start of my modding career.
+A huge shoutout to [@TechnoVisionDev](https://github.com/TechnoVisionDev) for the the conspicuous and richly detailed lesson to modding!
 
 ## Why is my inquisitiveness based on Minecraft?
 
@@ -13,11 +13,9 @@ It wasn't just the trend, it was the endless creativity that empowered me to cod
 and sheer commitment to make this blocky game thrive influenced me to contribute to this **masterpiece**.
 
 #### I would love to hear some feedback from you!
-<<<<<<< HEAD
+
 
 Feedback to me is greatly appreciated, I would love to hear from you! Just open an issue (There is a template!) paste it in an issue and fill it out!
-=======
-Feedback to me is greatly appreciated, I would love to hear from you! Just copy the contents of `.github/ISSUE_TEMPLATE.md`, paste it in an issue and fill it out!
+
 
 ## [Download](https://github.com/SuperHarmony910/modification-builder/releases/v0.2.0-alpha)
->>>>>>> 40fa15b24f6771f66486fe0803ac16ebff52a1d6
