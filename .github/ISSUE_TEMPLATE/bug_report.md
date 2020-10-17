@@ -20,11 +20,11 @@ Steps to reproduce the behaviour:
 **Expected behaviour**
 A clear and concise description of what you expected to happen.
 
-**Screenshots, error messages & ref**
+**Screenshots, error messages & reference**
 If applicable, add screenshots & error messages (with ``` backticks/code format) to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. Windows 10 Home]
+ - OS: [e.g. Windows 10 Home, or Linux Ubuntu.]
  - Version [e.g. 1.15.2]
 
 **Additional context**
