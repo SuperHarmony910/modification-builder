@@ -15,7 +15,7 @@ and sheer commitment to make this blocky game thrive influenced me to contribute
 #### I would love to hear some feedback from you!
 
 
-Feedback to me is greatly appreciated, I would love to hear from you! Just open an [issue](https://github.com/SuperHarmony910/modification-builder/issues/new?assignees=SuperHarmony910&labels=new-feature&template=feature_request.md&title=[Feature]<what-you-want>), and fill it out!
+Feedback to me is greatly appreciated, I would love to hear from you! Just open a [feature request issue](https://github.com/SuperHarmony910/modification-builder/issues/new?assignees=SuperHarmony910&labels=new-feature&template=feature_request.md&title=[Feature]<what-you-want>), and fill it out!
 
 
 ## [Download](https://github.com/SuperHarmony910/modification-builder/releases/v0.2.0-alpha)
