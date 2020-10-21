@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "icecream:block/ice_cream_block"
-  }
-}
