@@ -1,5 +1,6 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "__creator": "SuperHarmony910",
     "textures": {
         "bone_block_top": "minecraft:blocks/bone_block_top",
         "bone_block_side": "minecraft:blocks/bone_block_side"
