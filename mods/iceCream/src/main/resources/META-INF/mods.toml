@@ -26,17 +26,13 @@ authors="SuperHarmony910" #optional
 description='''
 This is the first time I've ever modded Minecraft, and after a minimal effort of questioning my little sister, she wanted ice cream! So, I guess that's what I'm going to be doing for the first mod in Minecraft. :D
 '''
-# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.icecream]] #optional
-# the modid of the dependency
 modId="icecream" #mandatory
 # Does this dependency have to exist - if not, ordering below must be specified
 mandatory=true #mandatory
-# The version range of the dependency
 versionRange="[0.3.0,)" #mandatory
 # An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
 ordering="NONE"
-# Side this dependency is applied on - BOTH, CLIENT or SERVER
 side="CLIENT"
 # Here's another dependency
 [[dependencies.icecream]]
