@@ -1,0 +1,3 @@
+# Important changes in mapping and file placement
+
+I am planning to change the of **where** I store my source code. It has now moved to modification-builder/mods/iceCream. This is due to the ambiguity of the folder name `java-files`. I have not altered the code in any way and this migration was committed at the commit: [Whoops, didn't do `git add mods/`!](https://github.com/SuperHarmony910/modification-builder/commit/f8023c8f8afe8a7864d32c0b8fe4753badcc8096). I am terrible at coming up with names and messages for random commits, and then I look back at the importance and I become so disappointed in myself.
