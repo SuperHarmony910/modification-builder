@@ -4,3 +4,6 @@ I was inspired by @MrCrayfish to learn Java and subsequently started coding mods
 and resource packs.
 Huge shoutout to @TechnoVisionDev for the modding tutorial!
 This repository has been published to my [Atlassian](https://superharmony910.atlassian.net) page and launched to [GitHub Pages](https://superharmony910.github.io/modification-builder)!
+
+
+I am currently building my first modification for Minecraft, which involves ice cream. More can be found at my [website](https://superharmony910.github.io/modification-builder).
