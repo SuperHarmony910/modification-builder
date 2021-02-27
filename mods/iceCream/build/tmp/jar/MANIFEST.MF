@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: icecream
+Specification-Vendor: SuperHarmony910
+Specification-Version: 0.3.0
+Implementation-Title: iceCream
+Implementation-Version: 0.3.0
+Implementation-Vendor: SuperHarmony910
+Implementation-Timestamp: 2020-10-25T17:28:59+1100
+
