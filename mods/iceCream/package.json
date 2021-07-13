@@ -1,0 +1,27 @@
+{
+    "name": "@superharmony910/icecream",
+    "version": "0.2.0",
+    "description": "My first modification for Minecraft!",
+    "main": "index.js",
+    "scripts": {
+        "test": "",
+        "go": "./gradlew build"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/SuperHarmony910/modification-builder.git"
+    },
+    "keywords": [
+        "Minecraft",
+        "modification",
+        "code",
+        "Gradle",
+        "open-source"
+    ],
+    "author": "SuperHarmony910",
+    "license": "GPL-3.0",
+    "bugs": {
+        "url": "https://github.com/SuperHarmony910/modification-builder/issues"
+    },
+    "homepage": "https://github.com/SuperHarmony910/modification-builder#readme"
+}
